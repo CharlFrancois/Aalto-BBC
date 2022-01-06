@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "first_sections",
+  "info": {
+    "singularName": "first-section",
+    "pluralName": "first-sections",
+    "displayName": "FirstSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phrase1": {
+      "type": "string"
+    },
+    "phrase2": {
+      "type": "string"
+    },
+    "phrase3": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

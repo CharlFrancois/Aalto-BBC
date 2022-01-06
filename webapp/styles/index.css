@@ -3,11 +3,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 @font-face {
   font-family: "Mulish";
-  src: local("Mulish"), url(../styles/fonts/Mulish-Regular.woff2) format("woff2");
+  src: local("Mulish"), url(./fonts/Mulish-Regular.woff2) format("woff2");
 }
 @font-face {
   font-family: "GalleryModern";
-  src: local("GalleryModern"), url(../styles/fonts/GalleryModern.woff2) format("woff2");
+  src: local("GalleryModern"), url(./fonts/GalleryModern.woff2) format("woff2");
 }
 @tailwind utilities;
 

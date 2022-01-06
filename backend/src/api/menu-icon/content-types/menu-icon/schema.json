@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "menu_icons",
+  "info": {
+    "singularName": "menu-icon",
+    "pluralName": "menu-icons",
+    "displayName": "MenuIcon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MenuIcon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

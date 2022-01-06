@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "dark_modes",
+  "info": {
+    "singularName": "dark-mode",
+    "pluralName": "dark-modes",
+    "displayName": "DarkMode",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DarkModeIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

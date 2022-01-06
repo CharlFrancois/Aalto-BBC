@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: var(--color-yellow-10);
+}
+.right {
+    display: flex;
+}
+.icon {
+    border-left: 1px solid var(--color-yellow-30);
+    padding: 0 1rem;
+}

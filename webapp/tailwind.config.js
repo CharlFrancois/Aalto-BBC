@@ -6,8 +6,8 @@ module.exports = {
   darkMode: false, // or "media" or "class"
   theme: {
     fontFamily: {
-      sans: ['"Mulish"', "ui-sans-serif", "system-ui"],
-      serif: ['"GalleryModern"', "ui-serif", "Georgia"],
+      sans: ["Mulish", "ui-sans-serif", "system-ui"],
+      serif: ["GalleryModern", "ui-serif", "Georgia"],
       mono: ["ui-monospace", "SFMono-Regular"],
       display: ["Oswald"],
       body: ['"Mulish"'],
