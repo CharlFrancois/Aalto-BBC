@@ -4,9 +4,9 @@ import "./Navbar.css"
 export default class Navbar extends React.Component {
   render() {
     return (
-      <div className="navbar">
+      <div className="flex justify-between">
           <img src="Logo_AALTO.svg" alt="logo" />
-          <div className="right">
+          <div className="">
             <img
               src="DarkMode.svg"
               className="icon"
