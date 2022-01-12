@@ -6,7 +6,7 @@ function FirstSection() {
             <div className='bg-skin-10'>
                 <div className='flex justify-between p-4'>
                     <p className='uppercase'>Concentrez-vous sur votre metier</p>
-                    <p className='uppercase'>contractant général</p>
+                    <p className='uppercase'>Contractant général</p>
                 </div>
             </div>
         </div>
