@@ -3,6 +3,7 @@ import './App.css';
 import SideLines from './base/SideLines';
 import Navbar from './base/Navbar';
 import ButtonContact from './base/ButtonContact';
+import HomePage from './views/HomePage';
 
 function App() {
   return (
@@ -10,9 +11,7 @@ function App() {
       <SideLines />
       <Navbar />
       <ButtonContact />
-      <div className="mx-10">
-        hello
-      </div>
+      <HomePage />
     </div>
   );
 }
