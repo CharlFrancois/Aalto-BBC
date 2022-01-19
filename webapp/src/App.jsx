@@ -8,7 +8,7 @@ import AboutPage from './views/AboutPage';
 import ArticlesPage from './views/ArticlesPage';
 import ArticlePage from './views/ArticlePage';
 import Footer from './base/Footer';
-
+import Contact from './views/Contact';
 
 function App() {
   return (
@@ -21,9 +21,10 @@ function App() {
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/journal" element={<ArticlesPage/>} />
         <Route path="/journal/:id" element={<ArticlePage/>} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <img src='button-contact.png' className='fixed bottom-5 right-14 cursor-pointer' />
       <Footer />
+      <img src='button-contact.png' alt='btn-contact' className='fixed bottom-5 right-14 cursor-pointer z-20 mob:hidden' />
     </div>
   );
 }
