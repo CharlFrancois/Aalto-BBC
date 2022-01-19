@@ -3,7 +3,7 @@ import './App.css';
 import SideLines from './base/SideLines';
 import Navbar from './base/Navbar';
 import ButtonContact from './base/ButtonContact';
-import HomePage from './views/HomePage';
+import ArticlePage from './views/ArticlePage';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <SideLines />
       <Navbar />
       <ButtonContact />
-      <HomePage />
+      <ArticlePage />
     </div>
   );
 }
