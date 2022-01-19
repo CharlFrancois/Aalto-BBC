@@ -1,5 +1,3 @@
-import HorizontalScroll from 'react-scroll-horizontal'
-
 const HorizontalScrollSections = () => {
 
   return (
