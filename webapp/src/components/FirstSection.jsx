@@ -4,7 +4,7 @@ function FirstSection() {
     return (
             <div className='bg-skin-10 dark:bg-dark dark:text-white'>
                 <div className='mx-10 h-screen flex items-center justify-around'>
-                    <div className='flex justify-between p-4 absolute w-full top-20'>
+                    <div className='flex justify-between pt-6 px-12 absolute w-full top-20'>
                         <p className='uppercase'>Concentrez-vous sur votre metier</p>
                         <p className='uppercase'>Contractant général</p>
                     </div>
