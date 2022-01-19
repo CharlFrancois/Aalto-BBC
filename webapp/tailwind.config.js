@@ -1,4 +1,5 @@
 module.exports = {
+  important: true,
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
   ],
@@ -13,6 +14,7 @@ module.exports = {
         'green-light': '#d7d9cd',
         'grey-light': '#d4d7d6',
         'custom-dark': '#282423',
+        'dark': '#282423',
       },
     },
   },
