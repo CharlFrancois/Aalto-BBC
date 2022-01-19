@@ -11,6 +11,18 @@
   src: local("GalleryModern"), url(../styles/fonts/GalleryModern.woff2) format("woff2");
 }
 
+.font-gallery {
+  font-family: "GalleryModern", serif
+}
+
+.outline-title {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 1px black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 :root {
   --color-yellow-10: #f5efe8;
   --color-yellow-30: #e9d8c9;
