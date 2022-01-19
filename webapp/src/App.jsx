@@ -7,7 +7,7 @@ import HomePage from './views/HomePage';
 
 function App() {
   return (
-    <div className="bg-skin-10 h-full p-0 static">
+    <div className="bg-skin-10 h-full p-0 static overflow-x-hidden">
       <SideLines />
       <Navbar />
       <Routes>
