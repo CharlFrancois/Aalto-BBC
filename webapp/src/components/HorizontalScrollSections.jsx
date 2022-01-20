@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const HorizontalScrollSections = () => {
 
   return (
@@ -9,15 +11,12 @@ const HorizontalScrollSections = () => {
           </p>
         </div>
       </div>
-      <section id='container' className="">
-      {/* <HorizontalScroll
-      className='absolute'
-      reverseScroll = { true }> */}
-        <section className="bg-skin-10 h-screen">
-          <div className="mx-10 w-screen">
-            <div className="flex">
-              <div className="w-1/3 ml-10">
-                <h3 className="font-serif mb-32">01</h3>
+      <section id='container' className="flex mob:flex-col overflow-x-scroll">
+        <section className="bg-skin-10">
+          <div className="mx-10 h-screen w-screen">
+            <div className="flex mob:flex-col h-full items-center">
+              <div className="w-1/3 ml-10 mob:w-full">
+                <h3 className="font-serif mb-16 font-gallery text-6xl">01</h3>
                 <p className="mb-8">La magie se produit à l’intersection.</p>
                 <p className='mb-8'>Nous comprenons les
                   interactions entre les choses et réalisons les projets du
@@ -27,12 +26,12 @@ const HorizontalScrollSections = () => {
                   l’aménagement, du design d'intérieur et du mobilier.</p>
                 <p>Le tout dans un seul contrat.</p>
               </div>
-              <div className="grid place-self-center w-full m-10">
-                <h4 className="m-auto">Pilotage de chantier</h4>
-                <img src='ALetter.svg' className="mt-10 mb-10 m-auto" />
+              <div className="grid place-self-center w-full m-10 mob:m-0 mob">
+                <h4 className="m-auto text-4xl mob:text-2xl font-gallery">Pilotage de chantier</h4>
+                <img src='ALetter.svg' alt='a-letter' className="mt-10 mb-10 m-auto mob:w-1/2" />
                 <div className="grid grid-cols-2 justify-items-stretch text-center">
-                  <h4 className="ml-10">Architecture</h4>
-                  <h4 className="">
+                  <h4 className="ml-10 text-4xl mob:text-2xl font-gallery">Architecture</h4>
+                  <h4 className="text-4xl mob:text-2xl font-gallery">
                     Design d’interieur
                   </h4>
                 </div>
@@ -41,11 +40,11 @@ const HorizontalScrollSections = () => {
           </div>
         </section>
         <section className="bg-brown-light h-screen">
-          <div className="mx-10 w-screen">
-            <div className="flex">
-              <div className="w-1/3 ml-10">
-                <h3 className="font-serif mb-32">02</h3>
-                <p className="w-380">
+          <div className="mx-10 h-screen w-screen">
+            <div className="flex mob:flex-col h-full items-center">
+              <div className="w-1/3 mob:w-full ml-10">
+                <h3 className="font-serif mb-16 font-gallery text-6xl">02</h3>
+                <p className="w-2/3">
                   Notre engagement est total.
                   <br />
                   <br />
@@ -64,25 +63,25 @@ const HorizontalScrollSections = () => {
                   réaliser votre rêve.
                 </p>
               </div>
-              <div className="flex flex-col items-center ml-20">
+              <div className="flex flex-col items-center ml-20 mob:ml-0">
                 <div className='flex items-center'>
-                  <h4 className="-rotate-45">Prix ferme</h4>
-                  <img src='ALetter.svg' className="mt-10 mb-10 m-auto" />
-                  <h4 className="rotate-45">Qualité</h4>
+                  <h4 className="-rotate-[65deg] text-4xl font-gallery mob:text-3xl">Prix ferme</h4>
+                  <img src='ALetter.svg' alt='a-letter' className="mt-10 mb-10 m-auto mob:w-1/2" />
+                  <h4 className="rotate-[65deg] text-4xl font-gallery mob:text-3xl">Qualité</h4>
                 </div>
-                <h4 className="">Délai respecté</h4>
+                <h4 className="text-4xl font-gallery mob:text-3xl">Délai respecté</h4>
               </div>
             </div>
           </div>
         </section>
-        <section className="bg-brown-dark h-screen">
-            <div className="mx-10 w-screen">
-              <div className='flex'>
-                <div className="w-1/3 ml-10">
-                  <h3 className="font-serif mb-32">03</h3>
+        <section className="bg-brown-dark">
+            <div className="mx-10 h-screen w-screen">
+              <div className='flex mob:flex-col h-full items-center'>
+                <div className="w-1/4 mob:w-full ml-10">
+                  <h3 className="font-serif mb-16 font-gallery text-6xl">03</h3>
                   <p className="">
                     La simplicité &nbsp;
-                    <img src='Key.svg' className="inline" />
+                    <img src='Key.svg' alt='key' className="inline" />
                     &nbsp; en main.
                     <br />
                     <br />
@@ -101,16 +100,16 @@ const HorizontalScrollSections = () => {
                     l’emploi.
                   </p>
                 </div>
-                <div className="flex ml-20">
-                <img src='LLetter.svg' />
+                <div className="flex ml-60 mob:ml-10 mob:mt-10">
+                <img src='LLetter.svg' alt='l-letter' className='mob:w-1/2' />
                   <div className="my-auto ml-140 text-left whitespace-nowrap">
-                    <h4 className="mb-10">
+                    <h4 className="mb-10 text-4xl mob:text-2xl font-gallery">
                       Un interlocuteur
                     </h4>
-                    <h4 className="mb-10">
+                    <h4 className="mb-10 text-4xl mob:text-2xl font-gallery">
                       Un contrat
                     </h4>
-                    <h4 className="">
+                    <h4 className="text-4xl mob:text-2xl font-gallery">
                       Une facture
                     </h4>
                   </div>
@@ -118,16 +117,16 @@ const HorizontalScrollSections = () => {
               </div>
           </div>
         </section>
-        <section className="bg-green-light h-screen">
-          <div className="mx-10 w-screen">
-            <div className="mb-32">
-              <h3 className="font-serif mb-5">04</h3>
+        <section className="bg-green-light">
+          <div className="mx-10 h-screen w-screen">
+            <div className="mb-32 mob:mb-0 h-1/5 pt-10 pl-10">
+              <h3 className="font-serif mb-5 text-6xl font-gallery">04</h3>
               <p className="">Trois facettes.</p>
             </div>
-            <div className="grid grid-cols-3 mt-120">
+            <div className="grid grid-cols-3 mt-120 mob:hidden">
               <div className="flex">
                 <div className="facette-creative self-center ml-20">
-                  <h4 className="mb-5">Créative</h4>
+                  <h4 className="mb-5 text-4xl font-gallery">Créative</h4>
                   <p className="">
                     Nous avons une passion profonde pour la résolution créative
                     de problèmes pour designer la meilleure experience
@@ -136,12 +135,12 @@ const HorizontalScrollSections = () => {
                 </div>
               </div>
               <div className="flex flex-col place-self-center">
-              <img src='TLetter.svg' />
+              <img src='TLetter.svg' alt='t-letter' />
               </div>
               <div>
                 <div className="flex flex-col gap-120 justify-evenly mt-10">
                   <div className="facette-collaborative mb-10">
-                    <h4 className="mb-2">Collaborative</h4>
+                    <h4 className="mb-2 text-4xl font-gallery">Collaborative</h4>
                     <p className="w-2/3">
                       Nous organisons des ateliers pour appréhender votre
                       vision, culture et besoins spécifiques afin de trouver les
@@ -149,7 +148,7 @@ const HorizontalScrollSections = () => {
                     </p>
                   </div>
                   <div className="facette-responsable">
-                    <h4 className="mb-2">Responsable</h4>
+                    <h4 className="mb-2 text-4xl font-gallery">Responsable</h4>
                     <p className="w-2/3">
                       Notre démarche est eco-responsable : nous collaboration
                       avec des entreprises locales et usons d’un maximum de
@@ -159,13 +158,40 @@ const HorizontalScrollSections = () => {
                 </div>
               </div>
             </div>
+            <div className='sm:hidden flex flex-col items-center'>
+                <div className="">
+                  <h4 className="mb-5 text-2xl font-gallery">Créative</h4>
+                  <p className="text-sm">
+                    Nous avons une passion profonde pour la résolution créative
+                    de problèmes pour designer la meilleure experience
+                    utilisateur possible.
+                  </p>
+                </div>
+                <div className="">
+                    <h4 className="mb-2 text-2xl font-gallery">Collaborative</h4>
+                    <p className="text-sm">
+                      Nous organisons des ateliers pour appréhender votre
+                      vision, culture et besoins spécifiques afin de trouver les
+                      meilleures solutions.
+                    </p>
+                  </div>
+                  <div className="">
+                    <h4 className="mb-2 text-2xl font-gallery">Responsable</h4>
+                    <p className="text-sm">
+                      Notre démarche est eco-responsable : nous collaboration
+                      avec des entreprises locales et usons d’un maximum de
+                      matériaux recyclés ou recyclables.
+                    </p>
+                  </div>
+                  <img src='TLetter.svg' alt='t-letter' className='w-1/2 mt-10' />
+              </div>
           </div>
         </section>
-        <section className="bg-grey-light h-screen">
-          <div className="mx-10 w-screen">
-            <div className="flex">
-              <div className="w-1/3 ml-10">
-                <h3 className="font-serif mb-32">05</h3>
+        <section className="bg-grey-light">
+          <div className="mx-10 h-screen w-screen">
+            <div className="flex mob:flex-col h-full items-center">
+              <div className="w-1/3 mob:w-full ml-10">
+                <h3 className="font-serif mb-16 font-gallery text-6xl">05</h3>
                 <p className="">
                   C’est la connaissance de votre métier, de ses contraintes et
                   l’interaction parfaite entre nos domaines d’activité qui nous
@@ -173,16 +199,15 @@ const HorizontalScrollSections = () => {
                   plus simple au plus complexe.
                   <br />
                   <br />
-                  Contactez nous.
+                  <Link to="/contact" className="underline">Contactez nous.</Link>
                 </p>
               </div>
-              <div className="ml-10">
-                <img src='OLetter.svg' className="" />
+              <div className="ml-10 mob:flex mob:justify-center">
+                <img src='OLetter.svg' alt='o-letter' className="mob:w-1/2" />
               </div>
             </div>
           </div>
         </section>
-        {/* </HorizontalScroll> */}
       </section>
     </>
   );
