@@ -8,7 +8,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className="absolute z-10 w-screen bg-skin-10 divide-x divide-skin-20 border-b border-skin-20 h-[102px] ">
+      <div className="absolute z-10 w-full bg-skin-10 divide-x divide-skin-20 border-b border-skin-20 h-[102px] ">
         <div className="flex justify-between mx-10 h-full">
           <img src="Logo_AALTO.svg" alt="logo" className="p-7" />
           <div className="flex divide-x divide-skin-20">

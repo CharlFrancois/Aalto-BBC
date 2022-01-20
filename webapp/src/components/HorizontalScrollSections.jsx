@@ -11,7 +11,7 @@ const HorizontalScrollSections = () => {
           </p>
         </div>
       </div>
-      <section id='container' className="">
+      <section id='container' className="flex mob:flex-col overflow-x-scroll">
         <section className="bg-skin-10">
           <div className="mx-10 h-screen w-screen">
             <div className="flex mob:flex-col h-full items-center">

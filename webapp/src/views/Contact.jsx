@@ -28,31 +28,31 @@ function Contact() {
             <div className='ml-20 mob:ml-0 mob:mt-5'>
                 <div className='mb-10'>
                     <span className='uppercase'>prénom et nom</span>
-                    <div className="flex w-96 items-center border-b-2 border-skin-20 py-2">
+                    <div className="flex w-96 mob:w-48 items-center border-b-2 border-skin-20 py-2">
                         <input className="appearance-none bg-transparent border-none w-full text-skin-20 mr-3 py-1 px-2 leading-tight focus:outline-none focus:text-skin-100" type="text" placeholder="Votre prénom et nom" />
                     </div>
                 </div>
                 <div className='mb-10'>
                     <span className='uppercase'>email</span>
-                    <div className="flex w-96 items-center border-b-2 border-skin-20 py-2">
+                    <div className="flex w-96 mob:w-48 items-center border-b-2 border-skin-20 py-2">
                         <input className="appearance-none bg-transparent border-none w-full text-skin-20 mr-3 py-1 px-2 leading-tight focus:outline-none focus:text-skin-100" type="text" placeholder="Votre email" />
                     </div>
                 </div>
                 <div className='mb-10'>
                     <span className='uppercase'>société</span>
-                    <div className="flex w-96 items-center border-b-2 border-skin-20 py-2">
+                    <div className="flex w-96 mob:w-48 items-center border-b-2 border-skin-20 py-2">
                         <input className="appearance-none bg-transparent border-none w-full text-skin-20 mr-3 py-1 px-2 leading-tight focus:outline-none focus:text-skin-100" type="text" placeholder="Nom de la société" />
                     </div>
                 </div>
                 <div className='mb-10'>
                     <span className='uppercase'>téléphone</span>
-                    <div className="flex w-96 items-center border-b-2 border-skin-20 py-2">
+                    <div className="flex w-96 mob:w-48 items-center border-b-2 border-skin-20 py-2">
                         <input className="appearance-none bg-transparent border-none w-full text-skin-20 mr-3 py-1 px-2 leading-tight focus:outline-none focus:text-skin-100" type="text" placeholder="Votre téléphone" />
                     </div>
                 </div>
                 <div>
                     <span className='uppercase'>message</span>
-                    <div className="flex w-96 items-center border-b-2 border-skin-20 py-2">
+                    <div className="flex w-96 mob:w-48 items-center border-b-2 border-skin-20 py-2">
                         <input className="appearance-none bg-transparent border-none w-full text-skin-20 mr-3 py-1 px-2 leading-tight focus:outline-none focus:text-skin-100" type="text" placeholder="Entrez votre description" />
                     </div>
                 </div>
