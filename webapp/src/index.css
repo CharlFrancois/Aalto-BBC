@@ -22,6 +22,13 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+.not-outline-title {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
 
 :root {
   --color-yellow-10: #f5efe8;
