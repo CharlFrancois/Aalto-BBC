@@ -8,7 +8,7 @@ export default function MenuModal(toggleModal) {
     <Dialog open={openNav} onClose={() => toggleModal}>
       <Dialog.Overlay className="absolute flex bg-skin-10 h-[150vh] w-screen p-0 top-[102px]" />
       <div className="flex fixed bottom-0 items-center content-end  mx-10">
-        <Link to="/projects">
+        <Link to="/projects" onClick={() => setOpenNav(false)}>
           <div className=" font-normal  leading-[135px] -rotate-90 mb-40 -mr-0 font-gallery text-[100px] outline-title mt-0 py-20 border-b-2 border-skin-20">
             Projets
           </div>
@@ -18,7 +18,7 @@ export default function MenuModal(toggleModal) {
             <button type="button">A propos</button>
           </div>
         </Link>
-        <Link to="/journal">
+        <Link to="/journal" onClick={() => setOpenNav(false)}>
           <div className=" font-normal  leading-[135px] -rotate-90 mb-40 -mr-0 font-gallery text-[100px] outline-title py-20 border-b-2 border-skin-20 ">
             Journal
           </div>

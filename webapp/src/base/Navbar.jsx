@@ -11,7 +11,7 @@ export default function Navbar() {
     <>
       <div className="absolute z-10 w-full bg-skin-10 divide-x divide-skin-20 border-b border-skin-20 h-[102px] ">
         <div className="flex justify-between mx-10 h-full">
-          <Link to="/home" className="p-7" onClick={() => setOpenNav(false)}>
+          <Link to="/" className="p-7" onClick={() => setOpenNav(false)}>
             <img src="Logo_AALTO.svg" alt="logo" className="w-full" />
           </Link>
           <div className="flex divide-x divide-skin-20">

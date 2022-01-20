@@ -3,17 +3,10 @@ import React from 'react'
 function FirstSection() {
     return (
             <div className='bg-skin-10 dark:bg-dark dark:text-white'>
-<<<<<<< HEAD
                 <div className='mx-10 mob:px-10 h-[calc(100vh+104px)] flex mob:flex-col mob:items-start items-center mob:justify-start justify-around'>
                     <div className='flex justify-between pt-12 px-20 mob:px-0 absolute w-full top-20 uppercase mob:text-xs'>
                         <p className=' mob:w-2/5'>Concentrez-vous sur votre metier</p>
                         <p className=' mob:w-2/5'>Contractant général</p>
-=======
-                <div className=' h-screen flex items-center justify-around w-screen'>
-                    <div className='flex justify-between pt-6 px-12 absolute w-full top-20'>
-                        <p className='uppercase'>Concentrez-vous sur votre metier</p>
-                        <p className='uppercase'>Contractant général</p>
->>>>>>> project page
                     </div>
                     <div className='flex flex-col h-3/4 justify-around mob:mt-48'>
                         <div className='text-9xl mob:text-4xl max-w-3xl'>
