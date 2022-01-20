@@ -14,54 +14,6 @@
 .font-gallery {
   font-family: "GalleryModern", serif
 }
-.card-art{
-  border: 1px solid #E9D8C9 ;
-}
-.card-cat{
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  text-transform: uppercase;
-}
-.card-title{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 25px;
-  padding-bottom: 2rem ;
-  padding-top: 2rem;
-}
-.card-body{
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-}
-.card-title-main{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 68px;
-  line-height: 60px;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-}
-.card-body-main{
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 28px;
-}
-.card-goto{
-  font-family: 'Mulish';
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 25px;
-}
 
 .outline-title {
   color: rgba(0, 0, 0, 0);

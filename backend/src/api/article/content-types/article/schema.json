@@ -23,9 +23,7 @@
       "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ]
     },
     "category": {
@@ -33,8 +31,34 @@
       "relation": "oneToOne",
       "target": "api::categorie.categorie"
     },
-    "Category": {
+    "Categories": {
       "type": "string"
+    },
+    "card_picture": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "subDescribe": {
+      "type": "richtext"
+    },
+    "secondTitle": {
+      "type": "string"
+    },
+    "secondDescribe": {
+      "type": "richtext"
+    },
+    "bigPic": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

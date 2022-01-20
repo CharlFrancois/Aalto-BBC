@@ -1,10 +1,10 @@
 import React from 'react'
-import Details from '../components/Details'
+import Articles from '../components/Articles'
 
 function ArticlePage() {
     return (
         <div>
-            <Details/>
+            <Articles />
         </div>
     )
 }
