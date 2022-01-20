@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import SideLines from './base/SideLines';
 import Navbar from './base/Navbar';
@@ -8,7 +8,7 @@ import AboutPage from './views/AboutPage';
 import ArticlesPage from './views/ArticlesPage';
 import ArticlePage from './views/ArticlePage';
 import Footer from './base/Footer';
-
+import Contact from './views/Contact';
 
 function App() {
   return (
@@ -21,9 +21,12 @@ function App() {
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/journal" element={<ArticlesPage/>} />
         <Route path="/journal/:id" element={<ArticlePage/>} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <img src='button-contact.png' className='fixed bottom-5 right-14 cursor-pointer' />
       <Footer />
+      <Link to="/contact" className="">
+        <img src='button-contact.png' alt='btn-contact' className='fixed bottom-5 right-14 cursor-pointer z-20 mob:hidden' />
+      </Link>
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../base/Footer'
 import FifthSection from '../components/FifthSection'
 import FirstSection from '../components/FirstSection'
 import FourthSection from '../components/FourthSection'
@@ -16,7 +15,6 @@ function HomePage() {
             <FourthSection />
             <FifthSection />
             <HorizontalScrollSections />
-            <Footer />
         </div>
     )
 }

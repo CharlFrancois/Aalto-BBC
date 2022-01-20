@@ -16,6 +16,9 @@ module.exports = {
         'custom-dark': '#282423',
         'dark': '#282423',
       },
+      screens: {
+        'mob': {'max': '639px'}
+      }
     },
   },
   plugins: [],
