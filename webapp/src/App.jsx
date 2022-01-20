@@ -9,15 +9,19 @@ import ArticlesPage from './views/ArticlesPage';
 import ArticlePage from './views/ArticlePage';
 import Footer from './base/Footer';
 import Contact from './views/Contact';
+import Projects from './views/Projects';
+import Project from './views/Project'
 
 function App() {
   return (
     <div className="bg-skin-10 h-full p-0 static overflow-x-hidden">
       <SideLines />
       <Navbar />
+      {/* <div className="mt-[102px] w-full"> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/projects" element={<span>Projets</span>} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/project" element={<Project />} />
         <Route path="/about" element={<AboutPage/>}/>
         <Route path="/journal" element={<ArticlesPage/>} />
         <Route path="/journal/:id" element={<ArticlePage/>} />
