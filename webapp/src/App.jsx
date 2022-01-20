@@ -4,6 +4,7 @@ import './App.css';
 import SideLines from './base/SideLines';
 import Navbar from './base/Navbar';
 import HomePage from './views/HomePage';
+import AboutPage from './views/AboutPage';
 import ArticlesPage from './views/ArticlesPage';
 import ArticlePage from './views/ArticlePage';
 import Footer from './base/Footer';
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<span>Projets</span>} />
-        <Route path="/about" element={<span>A propos</span>} />
+        <Route path="/about" element={<AboutPage/>}/>
         <Route path="/journal" element={<ArticlesPage/>} />
         <Route path="/journal/:id" element={<ArticlePage/>} />
       </Routes>
