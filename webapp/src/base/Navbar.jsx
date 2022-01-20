@@ -1,4 +1,5 @@
 import { React, useState } from 'react';
+import { Link } from 'react-router-dom';
 import MenuModal from './MenuModal';
 
 export default function Navbar() {
@@ -10,7 +11,9 @@ export default function Navbar() {
     <>
       <div className="absolute z-10 w-full bg-skin-10 divide-x divide-skin-20 border-b border-skin-20 h-[102px] ">
         <div className="flex justify-between mx-10 h-full">
-          <img src="Logo_AALTO.svg" alt="logo" className="p-7" />
+          <Link to="/" className="p-7" onClick={() => setOpenNav(false)}>
+            <img src="Logo_AALTO.svg" alt="logo" className="w-full" />
+          </Link>
           <div className="flex divide-x divide-skin-20">
             <button type="button" onClick={() => setOpenNav(!openNav)}>
               <img src="DarkMode.svg" className="p-2 px-8" alt="darkmode" />
