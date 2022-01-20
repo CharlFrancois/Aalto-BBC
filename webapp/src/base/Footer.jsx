@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 function Footer() {
     const projects = ["Bureaux / Co-working", "Restaurants", "Banques", "Médical", "Industrie"]
     const cities = ["Lille", "Amiens", "Le Touquet", "Villeneuve d'Ascq", "Calais", "Dunkerque", "Tourcoing", "Lens", "Compiègne", "Arras", "Valenciennes", "Cergy"]
     const prestations = ["Construction", "Extension", "Rénovation", "Cabinet d'architecture", "Conseil en aménagement"]
-    const bottom = ["Plan du site", "Mentions légales", "Recrutement", "A propos", "Contact", "©Aalto Group"]
     
     return (
         <div className='bg-dark'>
@@ -58,7 +59,12 @@ function Footer() {
                 </div>
                 <div className='w-full flex justify-center border-t py-4'>
                     <div className='w-1/2 flex justify-evenly self-center text-grey-light mob:grid mob:grid-cols-3 mob:w-full'>
-                        {bottom.map((el) => <p key={el}>{el}</p>)}
+                        <p>Plan du site</p>
+                        <p>Mentions Légales</p>
+                        <p>Recrutement</p>
+                        <p>A propos</p>
+                        <Link to="/contact" className="">Contact</Link>
+                        <p>©Aalto Group</p>
                     </div>
                 </div>
             </div>
