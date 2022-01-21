@@ -5,7 +5,7 @@ function FirstSection() {
     return (
         <div>
             <div className='mx-10 bg-skin-10 dark:bg-dark dark:text-white'>
-                <div className='mx-10 h-screen flex items-center justify-around'>
+                <div className='mx-10 h-screen flex items-center justify-around max-w-screen'>
                     <div className='mx-10 flex justify-between pt-6 px-12 absolute w-full top-20'>
                         <p className='uppercase'>ARCHITECTE contractant général</p>
                         <p className='uppercase'>basé près de lille</p>

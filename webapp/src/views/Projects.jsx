@@ -71,15 +71,18 @@ function Projects() {
   }
   
     return (
-        <div className="mx-10 bg-skin-10">
+        <div className="mx-10 bg-skin-10 dark:bg-dark mt-[102px]">
           <div className="border-b-2 border-skin-20">
             <div className="flex ml-20">
               {categories.map(element => (
                 <div className={`relative flex items-center justify-center 
                 ${(eval(`${element.type}Selected`)) ? "" : "mx-20"} my-3`} 
                 key={`category_${element.name}`}>
-                  {eval(`${element.type}Selected`) && <img src="uglyCircle.png" alt="uglyCircle" />}
-                  <button className="uppercase absolute break-normal whitespace-nowrap" 
+                  {eval(`${element.type}Selected`) && <>
+                    <img src="uglyCircle.png" className="dark:hidden" alt="uglyCircle" />
+                    <img src="uglyCircleWhite.png" className="hidden dark:block" alt="uglyCircle" />
+                  </>}
+                  <button className="uppercase absolute break-normal whitespace-nowrap dark:text-white" 
                     onClick={() => toggleProjects[`toggle${element.type}`](true)}>
                       {element.name}
                   </button>
@@ -94,7 +97,7 @@ function Projects() {
                   {`${index < 9 ? '0' : ''}${index + 1}`}
                 </div>
                 <Link to="/project">
-                  <button className="ml-4 outline-title hover:text-black text-[80px]">
+                  <button className="ml-4 outline-title dark:dark-outline-title hover:text-black text-[80px]">
                     {project.name}
                   </button>
                 </Link>

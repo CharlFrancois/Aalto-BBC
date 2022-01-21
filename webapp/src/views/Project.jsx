@@ -1,19 +1,17 @@
 import { React, useState } from 'react'
-import { Link } from 'react-router-dom'
+import FirstSection from '../components/About/FirstSection'
+import FourthSection from '../components/About/FourthSection'
+import SecondSection from '../components/About/SecondSection'
+import ThirdSection from '../components/About/ThirdSection'
 
 function Project() {
     return (
-        <div className="mx-10 flex flex-col">
-          <div className="flex flex-row justify-between mt-14 mx-10">
-            <div className="text-[80px] font-gallery">
-              Nom projet
-            </div>
-            <div className="w-1/5 mt-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-              sed do eiusmod tempor incididunt ut labore et dolore magna ali. 
-            </div>
-          </div>
-        </div>
+      <div className='h-full w-max-screen'>
+        <FirstSection />
+        <SecondSection />
+        <ThirdSection />
+        <FourthSection />
+      </div>
     )
 }
 
