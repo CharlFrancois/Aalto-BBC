@@ -14,21 +14,30 @@
 .font-gallery {
   font-family: "GalleryModern", serif
 }
+@layer components {
+  .outline-title {
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 1px black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  .dark-outline-title {
+    color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 1px white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  .not-outline-title {
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+}
 
-.outline-title {
-  color: rgba(0, 0, 0, 0);
-  -webkit-text-stroke: 1px black;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
-.not-outline-title {
-  color: rgba(0, 0, 0, 0);
-  -webkit-text-stroke: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
 
 :root {
   --color-yellow-10: #f5efe8;

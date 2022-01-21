@@ -14,7 +14,7 @@ import Project from './views/Project'
 
 function App() {
   return (
-    <div className="bg-skin-10 h-full p-0 static overflow-x-hidden">
+    <div className="bg-skin-10 dark:bg-dark h-full p-0 static overflow-x-hidden w-full">
       <SideLines />
       <Navbar />
       {/* <div className="mt-[102px] w-full"> */}
@@ -29,7 +29,8 @@ function App() {
       </Routes>
       <Footer />
       <Link to="/contact" className="">
-        <img src='button-contact.png' alt='btn-contact' className='fixed bottom-5 right-14 cursor-pointer z-20 mob:hidden' />
+        <img src='button-contact.png' alt='btn-contact' className='fixed bottom-5 right-14 cursor-pointer z-20 mob:hidden dark:hidden' />
+        <img src='buttonContactWhite.png' alt='btn-contact' className='fixed bottom-5 right-14 cursor-pointer z-20 mob:hidden hidden dark:block' />
       </Link>
     </div>
   );

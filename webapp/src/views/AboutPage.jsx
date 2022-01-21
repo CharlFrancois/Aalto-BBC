@@ -6,7 +6,7 @@ import ThirdSection from '../components/About/ThirdSection'
 
 function AboutPage() {
     return (
-        <div className='h-full'>
+        <div className='h-full w-max-screen'>
             <FirstSection />
             <SecondSection />
             <ThirdSection />
